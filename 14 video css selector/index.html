@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css selector</title>
+    <style>
+        /*Element selelctor all the div element will be brown*/
+        div {
+            background-color: brown;
+            color: black;
+        }
+
+        /* class selector only the red class element will change*/
+        .red {
+            background-color: red;
+        }
+
+        #green {
+            background-color: green;
+        }
+
+        /* child selector*/
+        div>p {
+            background-color: brown;
+            color: blue;
+        }
+
+        * {
+            /* universal selector margin and padding means the space between two lines will be zero*/
+            margin: 0;
+            padding: 0;
+        }
+
+        /*pseudo selector use for link color chnaging*/
+        a:visited {
+            background-color: blue;
+            color: aliceblue;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="red">
+        i am div element selector
+        <p> i am child selector using to change div inside paragrapgh </p>
+    </div>
+    <div>
+        i am div 2 class selector
+    </div>
+    <div id="green">
+        i am dive 3 id selector
+    </div>
+    <div>
+        <a href="https://www.googel.com">go to google</a>
+    </div>
+</body>
+
+</html>
