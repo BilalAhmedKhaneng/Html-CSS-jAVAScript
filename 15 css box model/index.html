@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css boxmodel</title>
+    <style>
+.box{
+background-color: aqua;
+margin: 10px;
+padding: 10px;
+
+}
+.box1{
+    background-color: black;
+    color: antiquewhite;
+    border: 2px solid blue;
+    box-sizing: border-box; 
+    height: 200px;
+}
+.box2{
+    background-color: aliceblue;
+    color: black;
+    border: 2px solid blue;
+    box-sizing: border-box; 
+    height: 200px;
+}
+
+    </style>
+</head>
+<body>
+    <div class="box box1">i am box</div>
+    <div class="box box2
+    ">i am box</div>
+    <p>margin collapse</p>
+    <p>box sizing box border means that all the box content everything will be include in 200.id we dont give box sizing box order so it will take separetely height padding and border</p>
+</body>
+</html>
