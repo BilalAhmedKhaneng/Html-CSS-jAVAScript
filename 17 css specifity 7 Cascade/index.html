@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS specifity & cascade</title>
+    <style>
+        h1 {
+            color: aqua;
+        }
+
+        .purple {
+            color: purple;
+        }
+        .red{
+            color: red;
+        }
+
+        .yellow {
+            color: yellow;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <h1 class="yellow cred cpurple">cascade algorith</h1>
+    </div>
+
+    <p>if we have multipple property in one class which one will pick it</p>
+    <p>in the cascade algorith there is four rules</p>
+    <p>1. if the selelctor will same the last property will pick</p>
+    <p>2.if we write style in inline elements so this is most specific they will pick then only inline elements without seeing to style elements after the inline elements then come id selector is also specif</p>
+     <p>3.origin is also important</p>
+     <p>4. important if we write color blue important so this will must pick</p>
+</body>
+
+</html>
