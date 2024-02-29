@@ -14,14 +14,23 @@
        width: 80vw;
        background-color: aquamarine;
        box-sizing: border-box;
+       height: 40vh;
        margin: auto;
        }
        .container{
         border: 2px solid black;
-       width: 80vh;
+       width: 90vw;
        background-color: aquamarine;
-       box-sizing: border-box;
-       margin: auto;
+       height: 40vh;
+       margin: 20px auto;
+       font-size: 18px;
+       min-height: 80vh;
+       
+       
+       }
+       .container>p :first-child{
+        font-size: 2em;
+
        }
     </style>
 </head>
@@ -30,12 +39,15 @@
         i am box
         <p>vw width view port witdth is how much is your pc or mobile width according the vivewer your width will be setup</p>
          <p>if you want center it you will keep margin auto so ur data will be in the center oif the element is block then it will come to center if element is inline then it will not come to the center.</p>
-
+        <p>vh means view height .we add we with height tag use for height</p>
+        <p>em use with fontsize tag .2em means multiple the container fontsize with 2 it became 36  </p>
+        <p>rem tag means the root font size which is preasent is html multiple that with two.but we did not use it</p>
+        <p>min-height use for the height that footer dont come to up side</p>
     </div>
-    <span class="container">
+    <div class="container">
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem, veritatis excepturi ullam illum, minima repudiandae fugiat magnam reiciendis sequi assumenda eum, consequatur placeat soluta tempore numquam necessitatibus iure nemo earum?
 
-    </span>
+    </div>
     
 </body>
 </html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css position property</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+
+        }
+
+        .box1 {background-color: aqua;}
+
+        .box2 {background-color: aquamarine;
+        position: relative;
+        z-index:1;
+        top: 34px;
+        left: 56px;
+        }
+
+        .box3 {background-color: blanchedalmond;}
+
+        .box4 {background-color: chocolate;}
+
+        .box {
+            border: 2px solid;
+            height: 133px;
+            width: 80vw;
+            padding: 3px;
+            margin: 3px;
+        }
+        .parent{
+            margin: 34px;
+            padding: 43px;
+            border: 2px solid black;
+
+
+        }
+    </style>
+
+</head>
+
+<body>
+    
+    <p>if we want that our box will nt if we scroll also our box will not move so we will add the fixed tag</p>
+    <p>if we want some thing fix on the top then we will use position sticky</p>
+    <p>if we want on the top we will use then position absoulte so he will find his granfather and adjust his self in that place and you will use aLso the top tag</p>
+    <div class="parent">
+    <div class=" box box1"></div>
+    <div class=" box box2">if we want to move the box like this we will use the position relative property the use z index and we have to use left,right bottom also</div>
+    <div class=" box box3"></div>
+    <div class=" box box4"></div>
+    </div>
+
+</body>
+
+</html>
