@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css variables</title>
+    <style>
+        :root{
+        --first:blue;
+        --second:rgb(50, 50, 189);
+        }
+        *{
+            margin: 3px;
+            padding: 5px;
+        }
+        div :first-child{
+           
+            background-color: var(--first);
+        }
+        ul {
+            display: flex;
+            list-style: none;
+            border: 9px solid royalblue;
+        }
+        ul li:first-child{
+            
+            --first:rgb(255, 230, 0);
+            background-color: var(--first);
+            border: 6px solid orangered ;
+            
+           
+        }
+        ul li{
+            border: 5px solid orangered;
+        }
+        .container{ 
+            background-color: var(--second);
+    
+
+
+        }
+     
+        
+    </style>
+</head>
+<body>
+    <div>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
+        <div class="container">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto illum est iusto explicabo, harum laudantium blanditiis at asperiores quas dignissimos quo! Vel sequi repudiandae qui! Quas nobis maiores facere iure id ipsa, assumenda ipsum dignissimos veritatis eligendi labore totam iusto perferendis libero tempore adipisci beatae?</div>
+    </div>
+    <p>if we want one colour in multiple section so we dont have to change one by one but we have to change it to make one variable :root {--color green, --secolor:red) and then apply it in changing place</p>
+        <p>we can also apply it on boarder var--color...note color and secolor is just name</p>
+</body>
+</html>
