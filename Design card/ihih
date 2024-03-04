@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>design copy card</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            
+        }
+    .box {
+        width: 500px;
+        height: 300px;
+        border: 3px solid rgb(195, 62, 48);
+        background-color: maroon;
+        border-radius: 12px;
+        
+        
+    }
+    
+    .card{
+        border: 3px solid red;
+        background-color: white;
+        margin: 40px;
+        padding: 2px;
+        height: 197px;
+        width: 403px;
+        border-radius: 22px;
+        position: relative;
+        
+    
+    }
+    .Small{
+        margin-top: 13px;
+        border: 2px solid rgba(255, 0, 0, 0.477);
+        height: 142px;
+        width: 130px;
+        border-radius:11px ;
+        position: absolute;
+        left: -13px;
+       border-bottom: 2px;
+       background-color: brown;
+
+    }
+    p{
+        margin: 9px;
+        text-align: center;
+    }
+   
+
+        
+        
+        
+    
+    
+
+
+    </style>
+</head>
+<body>
+    <div class="box"> 
+       
+
+
+
+    <div class="card"> <span>3/March/2024</span><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis dicta nulla sunt blanditiis officia sed temporibus tempore, facere quisquam repellat eius quam quas!</p> <div class="Small"></div>
+
+</div>
+    
+    </div>
+    
+</body>
+</html>
