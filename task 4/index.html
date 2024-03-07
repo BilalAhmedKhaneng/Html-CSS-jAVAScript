@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css multicolor task</title>
+
+    
+
+    <style>
+        :root{
+            --primary-color:rgb(10, 55, 160);
+            --text-color:rgb(112, 112, 161);
+            --secondary-color:rgb(75, 162, 16);
+            body{
+                background-color: var(--secondary-color);
+            }
+        }
+        *{
+            margin: 3px;
+            padding: 6px;
+            font-style: italic;
+            font-size: small;
+           }
+
+
+        ul li{
+            list-style: none;
+            display: inline;
+            margin: 3px;
+            padding: 3px;
+            background-color: var(--text-color);
+          
+            
+            
+        }
+        nav{
+            background-color: var(--primary-color)
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="https://www.facebook.com/help/668969529866328/?helpref=uf_share">Facebook</a></li>
+            <li><a href="https://www.google.com/search?q=about+refrence+link&sca_esv=933bea1e6b916c89&sxsrf=ACQVn09CIs0EHkMPJv1lIVHkdRow4A-x6w%3A1709810028411&ei=bKHpZeDKGOPo7_UP3-2g6A0&ved=0ahUKEwjgsIHbguKEAxVj9LsIHd82CN0Q4dUDCBA&uact=5&oq=about+refrence+link&gs_lp=Egxnd3Mtd2l6LXNlcnAiE2Fib3V0IHJlZnJlbmNlIGxpbmsyCBAAGBYYHhgPMgYQABgWGB4yBhAAGBYYHjILEAAYgAQYigUYhgMyCxAAGIAEGIoFGIYDMgsQABiABBiKBRiGA0jnG1D1AliEDnABeAGQAQCYAZoDoAHtDaoBBzItMS4zLjG4AQPIAQD4AQGYAgagAqEOwgIKEAAYRxjWBBiwA8ICBxAAGIAEGA3CAgYQABgeGA3CAggQABgeGA0YD5gDAIgGAZAGCJIHCTEuMC4xLjIuMqAHyyI&sclient=gws-wiz-serp">About</a></li>
+            <li><a href="https://www.google.com/search?q=servicelink&sca_esv=933bea1e6b916c89&sxsrf=ACQVn09cVQkJOx6kDOk7R-FYzjp7fZbX1g%3A1709810037265&ei=daHpZZfdD8S69u8Pvdao-A8&oq=servic&gs_lp=Egxnd3Mtd2l6LXNlcnAiBnNlcnZpYyoCCAEyDhAAGIAEGIoFGJECGLEDMgwQABiABBiKBRhDGAoyERAuGIAEGLEDGIMBGMcBGNEDMggQABiABBixAzIREC4YgwEYrwEYxwEYsQMYgAQyERAuGIAEGLEDGIMBGMcBGK8BMgUQABiABDIFEAAYgAQyCBAAGIAEGLEDMgsQLhiABBjHARjRA0jeQlDSCliRLXADeAGQAQSYAfYCoAGnGqoBBTItNy40uAEByAEA-AEBmAIKoALuEagCEsICChAAGEcY1gQYsAPCAgcQABiABBgNwgIGEAAYFhgewgIIEAAYFhgeGA_CAgcQIxjqAhgnwgINEC4YxwEY0QMY6gIYJ8ICFBAAGIAEGOMEGOkEGOoCGLQC2AEBwgIREC4YgAQYigUYkQIYxwEY0QPCAhEQABiABBiKBRiRAhixAxiDAcICCxAAGIAEGLEDGIMBwgIOEAAYgAQYigUYsQMYgwHCAiAQLhiABBiKBRiRAhjHARjRAxiXBRjcBBjeBBjgBNgBAsICCxAAGIAEGIoFGJECwgIKEAAYgAQYigUYQ8ICCxAuGIAEGLEDGIMBwgIIEC4YsQMYgATCAhEQLhiDARjHARixAxjRAxiABJgDIYgGAZAGCLoGBggBEAEYAboGBggCEAEYFJIHBzMuMC4zLjSgB659&sclient=gws-wiz-serp">Serivce</a></li>
+            <li><a href="https://www.google.com/search?q=contacts&sca_esv=933bea1e6b916c89&sxsrf=ACQVn0-KzNaqXWGhFF3lJPy2-VOGpLLOrg%3A1709810142867&ei=3qHpZaDFNKWO9u8Po6yHmAo&ved=0ahUKEwigrMuRg-KEAxUlh_0HHSPWAaMQ4dUDCBA&uact=5&oq=contacts&gs_lp=Egxnd3Mtd2l6LXNlcnAaAhgCIghjb250YWN0czIREAAYgAQYigUYkQIYsQMYgwEyCBAAGIAEGLEDMgUQABiABDIKEAAYgAQYFBiHAjIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABEj_SFDcBFjbN3ACeAGQAQSYAZkDoAHxHKoBCDItMTEuMS4xuAEDyAEA-AEBmAILoAK9FagCEsICChAAGEcY1gQYsAPCAg8QABiABBiKBRhDGLADGArCAhkQLhiABBiKBRhDGMcBGNEDGMgDGLAD2AEBwgITEC4YgAQYigUYQxjIAxiwA9gBAcICGRAuGIAEGIoFGEMYxwEYrwEYyAMYsAPYAQHCAgoQIxiABBiKBRgnwgIKEAAYgAQYigUYQ8ICCxAuGIAEGMcBGNEDwgIHECMY6gIYJ8ICDRAuGMcBGNEDGOoCGCfCAhMQABiABBiKBRhDGOoCGLQC2AECwgIcEC4YgAQYigUYQxjHARjRAxjIAxjqAhi0AtgBA8ICFhAuGIAEGIoFGEMYyAMY6gIYtALYAQPCAhAQLhiABBiKBRhDGMcBGNEDwgILEAAYgAQYsQMYgwHCAhEQLhiABBixAxiDARjHARjRA8ICDhAAGIAEGIoFGJECGLEDwgILEAAYgAQYigUYkQLCAg4QABiABBiKBRixAxiDAcICCxAuGIAEGLEDGIMBwgIQEAAYgAQYigUYkQIYRhj5AcICFxAuGIAEGLEDGIMBGIsDGPADGKgDGJgDwgILEAAYgAQYigUYsQPCAioQABiABBiKBRiRAhhGGPkBGJcFGIwFGN0EGEYY-QEY9AMY9QMY9gPYAQTCAhAQABiABBgUGIcCGLEDGIMBmAMjiAYBkAYMugYECAEYCLoGBggCEAEYAboGBggDEAEYCLoGBggEEAEYE5IHCTIuMC42LjIuMaAHlXc&sclient=gws-wiz-serp">Contact</a></li>
+        </ul>
+    </nav>
+    
+</body>
+</html>
